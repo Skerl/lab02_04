@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.lab02_04.HelloController">
+   <children>
+      <Button fx:id="ButtonDiv" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#divsubmit" prefHeight="50.0" prefWidth="150.0" text="DIV" />
+      <Button fx:id="ButtonMode" layoutX="225.0" layoutY="14.0" mnemonicParsing="false" onAction="#modesubmit" prefHeight="50.0" prefWidth="150.0" text="MODE" />
+      <Button fx:id="ButtonPip" layoutX="435.0" layoutY="14.0" mnemonicParsing="false" onAction="#pipsubmit" prefHeight="50.0" prefWidth="150.0" text="PIP" />
+      <TextField fx:id="myTextField" layoutX="14.0" layoutY="518.0" onAction="#submit" prefHeight="67.0" prefWidth="469.0" />
+      <Button fx:id="myButtonSubmit" layoutX="484.0" layoutY="518.0" mnemonicParsing="false" onAction="#submit" prefHeight="67.0" prefWidth="101.0" text="SUBMIT" />
+      <Label fx:id="myLabel" layoutX="221.0" layoutY="137.0" text="No selected">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="myLabelNotEror" layoutX="252.0" layoutY="183.0" text="No errors" textFill="LAWNGREEN">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <TextField fx:id="myTextField2" layoutX="14.0" layoutY="439.0" onAction="#submit" prefHeight="67.0" prefWidth="469.0" />
+   </children>
+</AnchorPane>
